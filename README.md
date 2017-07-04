@@ -98,7 +98,7 @@ applications, total and broken down among the top 3 applicant source countries.
 Statistically significant correlations in bold.
 
 
-[[https://raw.githubusercontent.com/lrei/negativity/gh-pages/relevant_vs_asy.png|alt=”News articles published vs Asylum Applications”]]
+![News articles published vs Asylum Applications](https://raw.githubusercontent.com/lrei/negativity/gh-pages/relevant_vs_asy.png)
 
 Figure: Asylum Applications vs. Relevant Articles Published per month in our
 dataset.
@@ -115,7 +115,7 @@ highly influenced by social dynamics associated with key events such as the
 to the former resulted in month with the lowest negativity in our data.
 
 
-[[https://raw.githubusercontent.com/lrei/negativity/gh-pages/negativity_month%2Bevents.png|alt=”Negative vs Positive articles published per month (%).”]]
+![Negative vs Positive articles published per month (%)](https://raw.githubusercontent.com/lrei/negativity/gh-pages/negativity_month%2Bevents.png)
 
 Figure 6: Negativity (%) per month i.e. the percentage of total articles,
 published during each month that was classified as negative. Annotated with
