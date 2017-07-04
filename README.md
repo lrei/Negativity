@@ -6,8 +6,9 @@ email: {firstname.lastname}@ijs.si
 
 
 This [Website](https://lrei.github.io/negativity/) provides a summary of
-the paper and makes available the dataset used in the paper. To download it,
-follow the link at the end of this page.
+the paper and makes available for
+**[download the dataset used in the paper](#download-the-dataset)**.
+
 
 For a better presented, complete view, the methodology, details, discussion,
 etc read the paper:
@@ -71,7 +72,7 @@ articles collected using keywords, and manually labeled articles.
 
 Not all of the articles collected using keywords were actually relevant to the
 European Refugee Crisis (e.g. some talked about refugees arriving in Canada,
-etc). We deal with those issues in the paper.
+etc). We deal with those issues by creating a “relevant” classifier.
 
 
 ## Hypothesis
