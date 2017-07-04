@@ -1,8 +1,28 @@
 # Mind the Negativity - Media Coverage of the European Refugee Crisis
 
+[Luis Rei](http://luisrei.com), Evgenia Belyaeva, Dunja Mladenić, Gregor Leban
+
+email: {firstname.lastname}@ijs.si
+
+
+This [Website](https://lrei.github.io/negativity/) website provides a summary of
+the paper and makes available the dataset used in the paper. To download it,
+follow the link at the end of this page.
+
+For a better presented, complete view, the methodology, details, discussion,
+etc read the paper:
+
+**Mind the Negativity - Media Coverage of the European Refugee Crisis**
+
 Luis Rei, Evgenia Belyaeva, Dunja Mladenić, Gregor Leban
 
-[Website](https://lrei.github.io/negativity/)
+_**Not yet published**_
+
+
+This work made use of [Event Registry](http://eventregistry.org) which collects and
+annotates in real-time news articles published by over 30,000 news publishers
+worldwide.
+
 
 ## Abstract
 The media has played a crucial role in covering the ongoing European refugee
@@ -81,6 +101,13 @@ applications, total and broken down among the top 3 applicant source countries.
 Statistically significant correlations in bold.
 
 
+<img
+src=”https://raw.githubusercontent.com/lrei/negativity/gh-pages/relevant_vs_asy.png” alt=”News articles published vs Asylum Applications”>
+
+Figure: Asylum Applications vs. Relevant Articles Published per month in our
+dataset.
+
+
 ### Prevalence of Negative News
 
 News outlets strongly prefer to publish articles that follow a negative
@@ -90,6 +117,15 @@ The variation in the split between negative and positive coverage seems to be
 highly influenced by social dynamics associated with key events such as the
 “The Death of Alan Kurdid” or the “Charlie Hebdo shooting”. Notably, the reaction
 to the former resulted in month with the lowest negativity in our data.
+
+
+<img
+src=”https://raw.githubusercontent.com/lrei/negativity/gh-pages/negativity_month%2Bevents.png” alt=”Negative vs Positive articles published per month (%)”.>
+
+Figure 6: Negativity (%) per month i.e. the percentage of total articles,
+published during each month that was classified as negative. Annotated with
+influential events: positive in green, negative in red. Note: Graph starts
+a 50% not 0%.
 
 
 | Class      | Keywords |
@@ -125,12 +161,14 @@ stand on the refugee crisis in Germany during this period.
 ## Download The Dataset
 [Download Dataset](https://drive.google.com/file/d/0B3CDC49Z2hjxRk13bGl1WThVblk/view)
 
+If you use this data, please cite the paper.
+
 There are 3 files:
 
-* relevant.csv: news articles labelled with relevant/not relevant;
-* negativity.csv: news articles labelled with Negative/Positive;
-* unlabeled.csv: unlabelled articles;
-* stopwords.txt: stopwords used in the text classifiers;
+* **relevant.csv**: news articles labelled with relevant/not relevant;
+* **negativity.csv**: news articles labelled with Negative/Positive;
+* **unlabeled.csv**: unlabelled articles;
+* **stopwords.txt**: stopwords used in the text classifiers.
 
 
 This dataset contains the following fields (labels in their respecitive files):
