@@ -1,22 +1,19 @@
 # Mind the Negativity - Media Coverage of the European Refugee Crisis
 
-[Luis Rei](http://luisrei.com), Evgenia Belyaeva, Dunja Mladenić, Gregor Leban
+[Luis Rei](http://luisrei.com), Evgenia Belyaeva, [Dunja Mladenić](http://ailab.ijs.si/dunja/), Gregor Leban
 
 email: {firstname.lastname}@ijs.si
 
 
-This [Website](https://lrei.github.io/negativity/) website provides a summary of
+This [Website](https://lrei.github.io/negativity/) provides a summary of
 the paper and makes available the dataset used in the paper. To download it,
 follow the link at the end of this page.
 
 For a better presented, complete view, the methodology, details, discussion,
 etc read the paper:
 
-**Mind the Negativity - Media Coverage of the European Refugee Crisis**
-
-Luis Rei, Evgenia Belyaeva, Dunja Mladenić, Gregor Leban
-
-_**Not yet published**_
+**Mind the Negativity - Media Coverage of the European Refugee Crisis** - Luis
+Rei, Evgenia Belyaeva, Dunja Mladenić, Gregor Leban, _**Not yet published**_
 
 
 This work made use of [Event Registry](http://eventregistry.org) which collects and
@@ -39,7 +36,7 @@ among publishers that can be attributed to their political affiliation.
 Moreover, the considered American publishers, although with less number of
 articles, turned to be far more negative than the considered European publishers.
 
-Keywords: Europeanrefugee crisis, negativity, mass media, news, social dynamics,
+Keywords: European refugee crisis, negativity, mass media, news, social dynamics,
 Event Registry, text mining, active learning
 
 
@@ -102,7 +99,7 @@ Statistically significant correlations in bold.
 
 
 <img
-src=”https://raw.githubusercontent.com/lrei/negativity/gh-pages/relevant_vs_asy.png” alt=”News articles published vs Asylum Applications”>
+src=”https://raw.githubusercontent.com/lrei/negativity/gh-pages/relevant_vs_asy.png” alt=”News articles published vs Asylum Applications” />
 
 Figure: Asylum Applications vs. Relevant Articles Published per month in our
 dataset.
@@ -120,7 +117,7 @@ to the former resulted in month with the lowest negativity in our data.
 
 
 <img
-src=”https://raw.githubusercontent.com/lrei/negativity/gh-pages/negativity_month%2Bevents.png” alt=”Negative vs Positive articles published per month (%)”.>
+src=”https://raw.githubusercontent.com/lrei/negativity/gh-pages/negativity_month%2Bevents.png” alt=”Negative vs Positive articles published per month (%).” />
 
 Figure 6: Negativity (%) per month i.e. the percentage of total articles,
 published during each month that was classified as negative. Annotated with
