@@ -14,7 +14,7 @@ For a better presented, complete view, the methodology, details, discussion,
 etc read the paper:
 
 **Mind the Negativity - Media Coverage of the European Refugee Crisis** - Luis
-Rei, Evgenia Belyaeva, Dunja Mladenić, Gregor Leban, _**Not yet published**_
+Rei, Evgenia Belyaeva, Dunja Mladenić, Gregor Leban, _**Submitted**_
 
 
 This work made use of [Event Registry](http://eventregistry.org) which collects and
@@ -75,7 +75,63 @@ European Refugee Crisis (e.g. some talked about refugees arriving in Canada,
 etc). We deal with those issues by creating a “relevant” classifier.
 
 
-## Hypothesis
+## Negativity
+
+**Note**: “Negative” and “Positive” are defined differently from sentiment
+analysis in the context of, say, movie reviews.
+
+
+The theory of newsworthiness (Galtung, 1965), which focuses on explaining the
+logic of the mass media, has gained worldwide attention of researchers in
+various fields.
+Negativity is one of the 12 news values of this theory that serves as
+a guideline for journalists in producing a news story. It has been long noted
+that negativity prevails in the news, even when the reality is different. Bad
+news supported by dramatic images and a large number of people affected will
+most likely dominate the front pages of all news outlets around the world
+(McGregor, 2002). For example, comparing crime stories across six newspapers
+and estimating the negativity, Soroka concluded that there is twice as much
+negative information in the news content as it is in reality (Soroka, 2014).
+News media often emphasizes the negative (Fogarty, 2000) and conflictual sides
+of any story, whether the news is about political campaigns of two different
+conflicting and disagreeing parties (Johnson-Cartee, 2005) or about
+a three-year-old Syrian boy who drowned in the Mediterranean Sea.
+
+To understand better the negative news coverage by mass media, there is an area
+of research that does not blame only journalists for the negativity in
+reporting, but focuses on consumers’ demand for negative stories.
+It has been shown that people in general tend to give more weight to negative
+entities because they are more contagious (Rozin, 2001).
+The causes of negativity in news reporting are many; one of them is the fact
+that a negative piece of news sells better than a positive one (Uscinski, 2014).
+Some conjecture that audience has a kind of unconscious attraction to fear or
+anger and thus they pay more attention to the negativity (Newhagen, 1998)
+creating a demand for negative news. People also tend to give more attention
+to the negative information due to our cognitive biases: negative bias and
+confirmation bias, where we confirm our selective, already existing ideas.
+It seems that most of our pre-existing ideas are negative, feeding our
+protective instincts, thus people look to reconfirm negative
+expectations (Kahneman, 2011).
+
+
+We assigned labels “Negative”, “Positive” and “Irrelevantd” using the
+following reasoning:
+
+
+* _**Positive**_ – we labelled an article as “Positive” if it
+expressed an emphatic, good, optimistic affirmation of an event. The label is
+based on the understanding that a positive piece of news tends to emphasize the
+good side of the story, seeing it as an advantage, a chance, an interest or an
+approval towards something.
+* _**Negative*_– we labelled an article as “Negative” if it expressed an unhealthy,
+unbalanced, prohibitory, not positive, bad outlook towards an event.
+The label is based on the understanding that a negative article tends to
+express an opinion against certain phenomena, seeing it as a disadvantage,
+drawback or a problem lacking good sides.
+* _**Irrelevant**_ - the automatic process for obtaining the initial data
+collection and in resulted in some articles that are
+not about the European refugee crisis. These articles are considered not
+relevant to the subject and were annotated as such.
 
 
 ## Main Hypothesis and Findings
@@ -137,6 +193,26 @@ Table: Examples of automatically extracted keywords from news articles classifie
 Conservative-leaning publishers being even more negative. The American
 publishers, although with less articles, turned out to be more negative than
 European publishers.
+
+
+| Publisher           | Negative (%) | Political affiliation |
+|---------------------|--------------|-----------------------|
+| BBC                 | 77.67        | Centre/Left           |
+| Al Jazeera          | 78.33        | State-run             |
+| The Guardian        | 78.74        | Liberal/Left          |
+| The Independent     | 79.02        | Liberal               |
+| CNN                 | 81.05        | Liberal               |
+| Deutsche Welle      | 81.56        | Liberal               |
+| USA Today           | 82.14        | Centre/Liberal        |
+| The Local (Germany) | 82.35        | Liberal               |
+| The New York Times  | 84.98        | Liberal               |
+| The Local (Italy)   | 85.54        | Liberal               |
+| Daily Mail          | 85.63        | Conservative          |
+| Fox News            | 87.29        | Conservative          |
+| The Wall Street Journal | 92.31    | Conservative          |
+
+Table: Percentage of “Negative” articles per source.
+
 
 We saw no evidence of a concerted effort to refer to refugees as “migrants”.
 Rather, there seem to be a tendency or an enduring confusion among most of the
