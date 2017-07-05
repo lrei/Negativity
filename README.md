@@ -174,7 +174,7 @@ to the former resulted in month with the lowest negativity in our data.
 
 ![Negative vs Positive articles published per month (%)](https://raw.githubusercontent.com/lrei/negativity/gh-pages/negativity_month%2Bevents.png)
 
-Figure 6: Negativity (%) per month i.e. the percentage of total articles,
+Figure: Negativity (%) per month i.e. the percentage of total articles,
 published during each month that was classified as negative. Annotated with
 influential events: positive in green, negative in red. Note: Graph starts
 a 50% not 0%.
