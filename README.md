@@ -123,7 +123,7 @@ expressed an emphatic, good, optimistic affirmation of an event. The label is
 based on the understanding that a positive piece of news tends to emphasize the
 good side of the story, seeing it as an advantage, a chance, an interest or an
 approval towards something.
-* _**Negative*_– we labelled an article as “Negative” if it expressed an unhealthy,
+* _**Negative**_ – we labelled an article as “Negative” if it expressed an unhealthy,
 unbalanced, prohibitory, not positive, bad outlook towards an event.
 The label is based on the understanding that a negative article tends to
 express an opinion against certain phenomena, seeing it as a disadvantage,
